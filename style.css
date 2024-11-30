@@ -1,0 +1,124 @@
+@font-face {
+    font-family:handwritten;
+    src: url(./Wasatsh\ Brush.otf);
+}
+@font-face {
+    font-family: mont;
+    src: url(./Montserrat-VariableFont_wght.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+html,
+body{
+    height: 100%;
+    width: 100%;
+
+
+    background-image: url(./bgimage.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    
+}
+
+nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-family: mont;
+    
+}
+.logo{
+    color: white;
+    font-size: 28px;
+}
+span{
+    color: red;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+nav ul li a:hover{
+    color: maroon;
+    transition: .3s;
+}
+button{
+    border: none;
+    background: royalblue;
+    padding: 12px 30px;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    transition: .4s;
+    
+}
+button:hover{
+    transform: scale(1.3);
+    cursor: pointer;
+}
+
+/* content area part2 */
+.content>p{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 10%; */
+    color:white;
+    font-family: handwritten;
+    font-size: 170px;
+}
+.content>h{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    color:white;
+    font-family: handwritten;
+    font-size: 150px;
+    
+} 
+.sociallink>i{
+    color: black;
+    height: 500px;
+    width: 500px;
+}
+.big{
+    border: none;
+    background: goldenrod;
+    padding: 12px 30px;
+    border-radius: 15px;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    transition: .4s; 
+    margin-left: 40%; 
+    font-family: mont; 
+}
+.big:hover{
+    color: #45040a;
+}
+.pera>p{
+    font-size: 23px;
+    color: white;
+    font-family:mont;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+}
